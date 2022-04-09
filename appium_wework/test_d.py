@@ -3,8 +3,8 @@
 from time import sleep
 
 import pytest
-from appium_wework import webdriver
-from appium_wework.webdriver.common.mobileby import MobileBy
+from appium import webdriver
+from appium.webdriver.common.mobileby import MobileBy
 
 
 class TestTransaction():
